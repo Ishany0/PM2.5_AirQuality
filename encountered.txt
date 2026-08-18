@@ -1,0 +1,6 @@
+1 . Model in all 3 was UNDERFITTING :
+got RMSE above 80   and
+R squared less than 2
+
+Solution : 1.doing scaling so every value in every column is scaled down
+            Neural nets are gradient-based and very sensitive to feature scale — Iws, Is, Ir are small-range columns while PRES is ~1000+
